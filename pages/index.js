@@ -11,6 +11,9 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import sistemPegawai from "../public/sistem pegawai.png";
+import parkir from "../public/e parkir.png";
+import webDestinasi from "../public/web destinasi.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -39,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   href="#"
-                  className="bg-gradient-to-tr from-cyan-500 to-green-500 text-white px-4 ml-4 py-2 rounded-lg cursor-pointer text-lg"
+                  className="bg-gradient-to-tr from-cyan-500 to-teal-500 text-white px-4 ml-4 py-2 rounded-lg cursor-pointer font-poppins text-sm"
                 >
                   Resume
                 </a>
@@ -62,7 +65,7 @@ export default function Home() {
           <div className="flex text-5xl justify-center text-teal-500  gap-7">
             {/* <AiFillLinkedin className="cursor-pointer" /> */}
             <a
-              href="https://www.linkedin.com/in/mohammad-iksan-arifki-695221222/"
+              href="https://www.linkedin.com/in/iksan-arifki/"
               target={"_blank"}
             >
               <AiFillLinkedin className="cursor-pointer" />
@@ -135,10 +138,7 @@ export default function Home() {
                 HTML,CSS & javascript
               </p>
               <p className="py-1 text-gray-800 dark:text-white">
-                Nodejs & Express js
-              </p>
-              <p className="py-1 text-gray-800 dark:text-white">
-                ReactJs& nextJs
+                ReactJs & Express js
               </p>
               <p className="py-1 text-gray-800 dark:text-white">
                 PHP & Laravel
@@ -154,7 +154,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 font-semibold text-teal-500">
+            <h3 className="text-3xl py-1 font-bold text-teal-500">
               Portofolio
             </h3>
             <p className="text-sm text-gray-400 dark:text-gray-100">
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex lg:flex-row lg:flex-wrap ">
             <div className="flex-1 basis-1/3">
               <Image
-                src={web1}
+                src={sistemPegawai}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -180,7 +180,7 @@ export default function Home() {
             </div>
             <div className="flex-1 basis-1/3">
               <Image
-                src={web2}
+                src={parkir}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <div className="flex-1 basis-1/3">
               <Image
-                src={web3}
+                src={webDestinasi}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -223,8 +223,8 @@ export default function Home() {
         </section>
       </main>
       <footer>
-        <div className="bg-gray-800 lg:w-full">
-          <h2 className="text-white text-center p-10">
+        <div className="bg-gradient-to-tr from-teal-500 to-cyan-500 lg:w-full">
+          <h2 className="text-white text-center p-3">
             Create By Iksan arifki❤️
           </h2>
         </div>
