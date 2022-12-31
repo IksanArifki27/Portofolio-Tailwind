@@ -1,13 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import iksan from "../public/iksan.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import design from "../public/design.png";
 import code from "../public/code.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
@@ -56,11 +53,6 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white">
               Developers and Designer
             </h3>
-            <p className="text-md py-5 leading-8 dark:text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              voluptates dolor accusantium suscipit corrupti laborum quod nam
-              consequuntur soluta. Aliquid.
-            </p>
           </div>
           <div className="flex text-5xl justify-center text-teal-500  gap-7">
             {/* <AiFillLinkedin className="cursor-pointer" /> */}
@@ -71,28 +63,30 @@ export default function Home() {
               <AiFillLinkedin className="cursor-pointer" />
             </a>
             <a href="https://www.facebook.com/iksanarifki27/" target={"_blank"}>
-              {" "}
               <AiFillFacebook />
             </a>
             <a href="https://github.com/IksanArifki27" target={"_blank"}>
-              {" "}
               <AiFillGithub />
             </a>
           </div>
-          <div className="relative bg-gradient-to-tr from-teal-400 to-cyan-700 w-60 h-60 my-3 rounded-full overflow-hidden mx-auto">
-            <Image src={deved} className="mt-6" />
+          <div className="relative bg-gradient-to-tr from-teal-400 to-cyan-700 w-60 h-60 my-10 rounded-full overflow-hidden mx-auto ">
+            <Image src={iksan} className="mt-5" />
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 font-semibold text-teal-500">
-              Services I can offer
-            </h3>
+            <h3 className="text-3xl py-1 font-bold text-teal-500">About Me</h3>
             <p className="text-sm text-gray-400 dark:text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              nemo numquam consequuntur, tempora tempore ducimus quis nisi
-              soluta laboriosam. Iste, quidem! Saepe repudiandae maxime a nihil
-              aperiam adipisci odit beatae.
+              My name is Mohammad Iksan Arifki, and I am an Informatics
+              Engineering student. I have a strong background in web development
+              skills and am passionate about using my skills to create
+              innovative and easy-to-use websites.
+            </p>
+            <p className="text-sm text-gray-400 dark:text-white">
+              In my free time, I like to keep up with the latest web development
+              trends and technologies. I am also an active member of the Student
+              Activity Unit and regularly attend meetings and conferences to
+              stay connected to the community.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -106,9 +100,9 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-2 pb-4 dark:text-teal-400">
                 Beautiful Designs
               </h3>
-              <p className="py-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-                eveniet!
+              <p className="py-2 dark:text-gray-300 text-left">
+                Graphic design is the process of creating visual content to
+                communicate information to an audience.!
               </p>
               <h4 className="py-2 font-medium text-teal-400">
                 Design Tools Can use
@@ -124,11 +118,12 @@ export default function Home() {
             <div className="text-center shadow-xl rounded-md p-10 my-10 ">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-2 pb-4 dark:text-teal-400">
-                Code
+                Development
               </h3>
-              <p className="py-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-                eveniet!
+              <p className="py-2 dark:text-gray-300 text-left">
+                successful web developer, it's important to have a solid
+                foundation in programming and computer science, as well as a
+                good understanding of web design principles.
               </p>
               <h4 className="py-2 font-medium text-teal-400">
                 Technology that I use
@@ -158,43 +153,63 @@ export default function Home() {
               Portofolio
             </h3>
             <p className="text-sm text-gray-400 dark:text-gray-100">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur quae aperiam fugit eaque ex cum recusandae culpa?
-              Aperiam error cum dolorum, sed quos ducimus nesciunt!
+              Welcome to my web development portfolio. On this page, you will
+              find a selection of my recent projects. Each project includes a
+              brief description of the portfolio I completed and a link to the
+              github site.
             </p>
             <p className="text-sm text-gray-400 dark:text-gray-100">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-              consectetur sint quibusdam qui a tenetur dolores enim dolore
-              soluta, ad nulla repellat ipsam veritatis animi sed beatae
-              voluptates. Quos, doloremque.
+              I'm always looking for new opportunities to grow and learn as a
+              web developer, and I welcome the opportunity to work on
+              challenging and interesting projects. If you are interested in
+              discussing a potential project or collaboration, please feel free
+              to contact me. Thanks for visiting my portfolio!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex lg:flex-row lg:flex-wrap ">
             <div className="flex-1 basis-1/3">
-              <Image
-                src={sistemPegawai}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
+              <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
+                <Image
+                  src={sistemPegawai}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                />
+                {/* caption gambar */}
+                <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
+                  Sistem Manajemen Pegawai
+                </p>
+              </div>
             </div>
             <div className="flex-1 basis-1/3">
-              <Image
-                src={parkir}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
+              <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
+                <Image
+                  src={parkir}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                />
+                {/* caption gambar */}
+                <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
+                  Sistem Parkir
+                </p>
+              </div>
             </div>
             <div className="flex-1 basis-1/3">
-              <Image
-                src={webDestinasi}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
+              <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
+                <Image
+                  src={webDestinasi}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                />
+                {/* caption gambar */}
+                <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
+                  Sistem Destinasi Wisata
+                </p>
+              </div>
             </div>
-            <div className="flex-1 basis-1/3">
+            {/* <div className="flex-1 basis-1/3">
               <Image
                 src={web4}
                 className="rounded-lg object-cover"
@@ -217,7 +232,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
               />
-            </div>
+            </div> */}
           </div>
           <div className="my-30"></div>
         </section>
