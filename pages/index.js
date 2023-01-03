@@ -38,8 +38,10 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://drive.google.com/drive/folders/1Duu6fdaiereY-eRPzUegk3u_kaA7qdhm"
                   className="bg-gradient-to-tr from-cyan-500 to-teal-500 text-white px-4 ml-4 py-2 rounded-lg cursor-pointer font-poppins text-sm"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
