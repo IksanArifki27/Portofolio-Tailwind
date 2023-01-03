@@ -58,14 +58,23 @@ export default function Home() {
             {/* <AiFillLinkedin className="cursor-pointer" /> */}
             <a
               href="https://www.linkedin.com/in/iksan-arifki/"
-              target={"_blank"}
+              target="_blank"
+              rel="noreferrer"
             >
               <AiFillLinkedin className="cursor-pointer" />
             </a>
-            <a href="https://www.facebook.com/iksanarifki27/" target={"_blank"}>
+            <a
+              href="https://www.facebook.com/iksanarifki27/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillFacebook />
             </a>
-            <a href="https://github.com/IksanArifki27" target={"_blank"}>
+            <a
+              href="https://github.com/IksanArifki27"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillGithub />
             </a>
           </div>
