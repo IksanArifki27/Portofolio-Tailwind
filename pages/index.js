@@ -35,8 +35,9 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1hrUifmJMfwk1-b8L0u9KXRGUthXN7Ba5/view?usp=sharing"
-                  download="Cv ATS iksan arifki"
+                  href="CV.pdf"
+                  download="CV Iksan Arifki.pdf"
+                  // alt="alt text"
                   className="bg-gradient-to-tr from-cyan-500 to-teal-500 text-white px-4 ml-4 py-2 rounded-lg cursor-pointer font-poppins text-sm"
                   target="_blank"
                   rel="noreferrer"
