@@ -5,9 +5,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import design from "../public/design.png";
 import code from "../public/code.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import sistemPegawai from "../public/sistem pegawai.png";
 import parkir from "../public/e parkir.png";
 import webDestinasi from "../public/web destinasi.png";
@@ -163,7 +160,7 @@ export default function Home() {
               github site.
             </p>
             <p className="text-sm text-gray-400 dark:text-gray-100">
-              I'm always looking for new opportunities to grow and learn as a
+              I am always looking for new opportunities to grow and learn as a
               web developer, and I welcome the opportunity to work on
               challenging and interesting projects. If you are interested in
               discussing a potential project or collaboration, please feel free
@@ -213,39 +210,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* <div className="flex-1 basis-1/3">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
-            </div>
-            <div className="flex-1 basis-1/3">
-              <Image
-                src={web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
-            </div>
-            <div className="flex-1 basis-1/3">
-              <Image
-                src={web6}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-              />
-            </div> */}
           </div>
           <div className="my-30"></div>
         </section>
       </main>
       <footer>
         <div className="bg-gradient-to-tr from-teal-500 to-cyan-500 lg:w-full">
-          <h2 className="text-white text-center p-3">
-            Create By Iksan arifki❤️
-          </h2>
+          <h2 className="text-white text-center p-3">Create By Iksan arifki</h2>
         </div>
       </footer>
     </div>
