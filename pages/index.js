@@ -35,7 +35,8 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/drive/folders/1Duu6fdaiereY-eRPzUegk3u_kaA7qdhm"
+                  href="https://drive.google.com/file/d/1hrUifmJMfwk1-b8L0u9KXRGUthXN7Ba5/view?usp=sharing"
+                  download="Cv ATS iksan arifki"
                   className="bg-gradient-to-tr from-cyan-500 to-teal-500 text-white px-4 ml-4 py-2 rounded-lg cursor-pointer font-poppins text-sm"
                   target="_blank"
                   rel="noreferrer"
@@ -58,21 +59,21 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/iksan-arifki/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <AiFillLinkedin className="cursor-pointer" />
             </a>
             <a
               href="https://www.facebook.com/iksanarifki27/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <AiFillFacebook />
             </a>
             <a
               href="https://github.com/IksanArifki27"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <AiFillGithub />
             </a>
