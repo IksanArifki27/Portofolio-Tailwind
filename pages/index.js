@@ -69,7 +69,7 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div>
-          <div className="relative bg-gradient-to-tr from-teal-400 to-cyan-700 w-60 h-60 my-10 rounded-full overflow-hidden mx-auto ">
+          <div className="relative bg-gradient-to-tr from-teal-400 border-solid border- to-cyan-700 w-60 h-60 my-10 rounded-full overflow-hidden mx-auto ">
             <Image src={iksan} className="mt-5" />
           </div>
         </section>
@@ -89,21 +89,18 @@ export default function Home() {
               stay connected to the community.
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-xl rounded-md p-10 my-10  mx-auto">
+          <div className="lg:flex gap-10 ">
+            <div className="text-center shadow-xl rounded-md p-10 my-10  mx-auto dark:border-solid dark:border-4 dark:border-teal-400">
               <Image
                 src={design}
                 width={100}
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-2 pb-4 dark:text-teal-400">
-                Beautiful Designs
+              <h3 className="text-xl font-bold pt-2 pb-4 dark:text-teal-400">
+                Designs
               </h3>
-              <p className="py-2 dark:text-gray-300 text-left">
-                Graphic design is the process of creating visual content to
-                communicate information to an audience.!
-              </p>
+
               <h4 className="py-2 font-medium text-teal-400">
                 Design Tools Can use
               </h4>
@@ -115,16 +112,12 @@ export default function Home() {
               </p>
               <p className="py-1 text-gray-800 dark:text-white">Figma</p>
             </div>
-            <div className="text-center shadow-xl rounded-md p-10 my-10 ">
+            <div className="text-center shadow-xl rounded-md p-10 my-10  mx-auto dark:border-solid dark:border-4 dark:border-teal-400 ">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-2 pb-4 dark:text-teal-400">
+              <h3 className="text-xl font-bold pt-2 pb-4 dark:text-teal-400">
                 Development
               </h3>
-              <p className="py-2 dark:text-gray-300 text-left">
-                successful web developer, it's important to have a solid
-                foundation in programming and computer science, as well as a
-                good understanding of web design principles.
-              </p>
+
               <h4 className="py-2 font-medium text-teal-400">
                 Technology that I use
               </h4>
@@ -240,7 +233,7 @@ export default function Home() {
       <footer>
         <div className="bg-gradient-to-tr from-teal-500 to-cyan-500 lg:w-full">
           <h2 className="text-white text-center p-3">
-            Create By Iksan arifki❤️
+            Create By Iksan arifki❤️&copy;2022
           </h2>
         </div>
       </footer>
