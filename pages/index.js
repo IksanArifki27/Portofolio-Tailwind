@@ -8,6 +8,7 @@ import code from "../public/code.png";
 import sistemPegawai from "../public/sistem pegawai.png";
 import parkir from "../public/e parkir.png";
 import webDestinasi from "../public/web destinasi.png";
+import sioktig from "../public/sioktig.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -209,6 +210,20 @@ export default function Home() {
                 {/* caption gambar */}
                 <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
                   Sistem Destinasi Wisata
+                </p>
+              </div>
+            </div>
+            <div className="flex-1 basis-1/3">
+              <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
+                <Image
+                  src={sioktig}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                />
+                {/* caption gambar */}
+                <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
+                  Sistem Informasi K3
                 </p>
               </div>
             </div>
