@@ -9,6 +9,7 @@ import sistemPegawai from "../public/sistem pegawai.png";
 import parkir from "../public/e parkir.png";
 import webDestinasi from "../public/web destinasi.png";
 import sioktig from "../public/sioktig.png";
+import idplay from "../public/idplay.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -188,17 +189,18 @@ export default function Home() {
             <div className="flex-1 basis-1/3">
               <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
                 <Image
-                  src={parkir}
+                  src={idplay}
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                 />
                 {/* caption gambar */}
                 <p className="font-semibold text-lg text-center font-poppins my-2 dark:text-white ">
-                  Sistem Parkir
+                  IDPLAY Provider
                 </p>
               </div>
             </div>
+
             <div className="flex-1 basis-1/3">
               <div className="p-2 bg-gray-100 rounded-xl shadow-md dark:bg-slate-700">
                 <Image
