@@ -1,6 +1,5 @@
 import React from "react";
 import sistemPegawai from "../public/sistem pegawai.png";
-
 import webDestinasi from "../public/web destinasi.png";
 import sioktig from "../public/sioktig.png";
 import idplay from "../public/idplay.png";

@@ -4,6 +4,12 @@ import iksan from "../public/xsann.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { useState, useContext } from "react";
+import sistemPegawai from "../public/sistem pegawai.png";
+import webDestinasi from "../public/web destinasi.png";
+import sioktig from "../public/sioktig.png";
+import idplay from "../public/idplay.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
 
 import Footer from "../components/Footer";
 import Aboutme from "../components/Aboutme";
