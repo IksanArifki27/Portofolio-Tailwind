@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import iksan from "../public/iksan.png";
+import iksan from "../public/xsann.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import design from "../public/design.png";
@@ -14,6 +14,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -82,7 +83,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative bg-gradient-to-tr from-teal-400 border-solid border- to-cyan-700 w-60 h-60 my-10 rounded-full overflow-hidden mx-auto ">
-            <Image src={iksan} className="mt-5" />
+            <Image src={iksan} className="mt-5" width={700} />
           </div>
         </section>
         <section>
@@ -235,7 +236,7 @@ export default function Home() {
       </main>
       <footer>
         <div className="bg-gradient-to-tr from-teal-500 to-cyan-500 lg:w-full">
-          <h2 className="text-white text-center p-3">Create By Iksan arifki</h2>
+          <h2 className="text-white text-center p-3">copyright &copy; 2024</h2>
         </div>
       </footer>
     </div>
